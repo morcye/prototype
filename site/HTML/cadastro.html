@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    
+
+<body>
+    <div class="container">
+        <h2>Faça seu cadastro</h2>
+        <form onsubmit="cadastroCliente()">
+            <div class="input-field">
+                <input type="text" maxlength="100"  id="nome" placeholder="Nome">
+                <label for="nome"></label>
+            </div>
+
+            <div class="input-field">
+                <input type="text" maxlength="100" id="email" placeholder="gmail.com">
+                <label for="email"></label>
+            </div>
+            <div class="input-field">
+                <input type="password" maxlength="8" id="senha" placeholder="Senha">
+                <span class="button-hide"></span>
+                <label for="password"></label>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="blob-btn">
+                    Cadastrar-se
+                    <span class="blob-btn_inner">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                    </span>
+                </button>
+            </div>
+        </form>
+        <script type="text/javascript" src="../js/index.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body{
+    background: url("../IMG/image.jpg") no-repeat center center;
+}
+.navbar-costum{
+    background-color: rgb(255, 255, 255);
+}
+h1.text{
+    font-size: 25px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    text-align: center;
+    margin-top: 100px;
+
+    }
+    .carousel-item{
+        height:92vh;
+        width:100%
+        
+    }
+    #b1{
+        height:570px;
+        width:100%;
+    }
+    #b2{
+        height:570px;
+        width:100%;
+    }
+    #b3{
+        height:570px;
+        width:100%;
+    }
+    #b4{
+        height:570px;
+        width:100%;
+    }
